@@ -1,0 +1,10 @@
+read v;
+if [ $v == "Y" ]; then
+    echo "YES"
+elif [ $v == "y" ]; then
+    echo "YES"
+elif [ $v == "N" ]; then
+    echo "NO"
+elif [ $v == "n" ]; then
+    echo "NO"
+fi
